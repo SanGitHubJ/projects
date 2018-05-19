@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Sanath on 5/17/2018.
+ * Created by Sanath J on 5/17/2018.
  */
 public class takeScreenShot  {
 
