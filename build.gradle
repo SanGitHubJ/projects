@@ -12,7 +12,7 @@ repositories {
 dependencies {
 
         //to get selenium https://mvnrepository.com/search?q=apachi+poi
-    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.9.0'
+    testCompile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.12.0'
     //to get test ng
    testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
     //to get chrome driver
@@ -24,6 +24,7 @@ dependencies {
 
     // https://mvnrepository.com/artifact/log4j/log4j
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
 
 
 }

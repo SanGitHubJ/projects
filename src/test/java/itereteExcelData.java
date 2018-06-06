@@ -13,10 +13,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
-//import org.apache.poi.ss.usermodel.Workbook;
+//import org.apache.poi.ss.usermodel.Workbook;jkjkjkjkj
+
 
 /**
- * Created by Sanath on 5/15/2018.
+ * Created by Sanath J on 5/15/2018.
  */
 public class itereteExcelData {
 
@@ -25,7 +26,7 @@ public class itereteExcelData {
        @BeforeTest
     public void openBrowser(){
 
-        String driverlocation="E:\\Sanath\\Sellenium sw\\projects\\drivers\\chromedriver(1).exe";
+        String driverlocation="E:\\Sanath\\SelleniumNew\\projects\\drivers\\chromedriver(1).exe";
         File driverPath= new File(driverlocation);
         System.setProperty("webdriver.chrome.driver",driverPath.toString());
         driver= new ChromeDriver();
@@ -74,7 +75,7 @@ public class itereteExcelData {
         // String path = "E:\\Sanath\\Sellenium sw\\projects\\DataEngine..xlsx";
 
         //String name = "CRMURS";
-        FileInputStream exl = new FileInputStream("E://Sanath//Sellenium sw//projects//DataEngine.xlsx");
+        FileInputStream exl = new FileInputStream("E://Sanath//SelleniumNew//projects//DataEngine.xlsx");
        // ExcelWBook = WorkbookFactory.create(exl);
         XSSFWorkbook ExcelWBook = new XSSFWorkbook(exl);
         XSSFSheet ExcelWSheet = ExcelWBook.getSheet("CRMURS");
