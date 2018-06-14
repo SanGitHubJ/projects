@@ -1,0 +1,21 @@
+
+###XPATH###
+1> //input[@class='gh-tb ui-autocomplete-input']
+
+2> //input[contains(@class,'gh-tb ui-autocomplete-input')] // option 2 is more powerful speacil with dynamic change id
+
+eg > if id = test_123, test_456, etc
+    hence use 2nd option //input[contains(@id,'test_')]
+
+ 3> //input[starts-with(@id,'test_')]  /// 2 nad 3 most suitable but starting word 3rd is good
+
+4> //input[ends-with(@id,'test_')] //eg : 123_test
+
+5>> // for link click
+     //a[contains(text(),'Electronics')]
+ 6>> // to find all LINKS
+
+            > List<WebElement> list = driver.findelements(By.tagName(a));
+
+  7>>// to find check box backward way
+        >> //a[@class='test']//parent::td[@id='hamm']//preceding-sibling::td[@name='jack']//input[@name='uattac'];
