@@ -13,6 +13,7 @@ eg > if id = test_123, test_456, etc
 
 5>> // for link click
      //a[contains(text(),'Electronics')]
+     driver.findelement(By.linktext("linkname"));
  6>> // to find all LINKS
 
             > List<WebElement> list = driver.findelements(By.tagName(a));

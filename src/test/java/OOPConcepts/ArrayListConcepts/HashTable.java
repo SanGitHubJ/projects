@@ -6,7 +6,7 @@ public class HashTable {
 
     public static void main(String[] args){
 
-        // in array we have InDEXES but HAS Table have KEYS
+        // in array we have InDEXES but HAS Table have KEYS/values
         Hashtable ht = new Hashtable();
 
         ht.put("A","TestA");

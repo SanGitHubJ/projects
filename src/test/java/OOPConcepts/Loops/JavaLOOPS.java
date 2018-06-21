@@ -33,8 +33,8 @@ public class JavaLOOPS {
 
         int t =1;
         int y=t++; //post increment
-        System.out.println(t);
-        System.out.println(y);
+        System.out.println(t); //2
+        System.out.println(y);//1
 
         System.out.println("//pre increment");
         int ta =1;
