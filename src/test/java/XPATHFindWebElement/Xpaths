@@ -20,3 +20,42 @@ eg > if id = test_123, test_456, etc
 
   7>>// to find check box backward way
         >> //a[@class='test']//parent::td[@id='hamm']//preceding-sibling::td[@name='jack']//input[@name='uattac'];
+
+        My name is sanath jayaweera , software quality assurance profession over 12 plus years of experinces working in
+        verious domain such as banking,telecommunication,insurance,security, capital market in different software development
+        life cycle such as waterfall, agile etc.
+
+        Also im very familiar and handon experince in test managment and test leading involving to define scope,
+         test planning and effort estimation(using 3 point estimation and work break down system WBS), team bulding and
+          assing resource   , monitor and manage them in last 7PLUS years
+
+        Also handon experince in test automation , using verious tools and technologies such as selenium,TestNG git,
+         maven,jenking , java and working on verious os like windows , unix linux. And DB such as Oracle, mysql.
+         Using selenium 3.12 i have been introduced test auotmation framework such as  page object module and
+         specialy introudce extents reports for reporting , tracking the failure test cases.
+
+        About last 4 years i was working in UOB as senior qa lead involving to test managemnt and test leading and
+        contribution to team in consumer banking system
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

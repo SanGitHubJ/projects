@@ -36,7 +36,7 @@ public class HaldlingPopupnWindow {
 
        // driver.get("https://mail.rediff.com/cgi-bin/login.cgi"); for test=3
 
-        driver.get("https://www.google.com/");
+       // driver.get("https://www.google.com/");
 
     }
 
@@ -69,6 +69,10 @@ public class HaldlingPopupnWindow {
         System.out.println("Child "+ driver.getTitle());
 
         Thread.sleep(2000);
+
+        driver.findElement(By.xpath("//a[contains(text(),'Good PopUp #4')]")).click();
+
+
 
 
     }

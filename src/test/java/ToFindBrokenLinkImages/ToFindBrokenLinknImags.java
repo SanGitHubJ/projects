@@ -47,7 +47,7 @@ public class ToFindBrokenLinknImags {
               //  System.out.println("Blank Href are name>>>"+actlink.get(i).getAttribute("href"));
             }
             //System.out.println("Blank Href are>>>"+actlink.get(i).getText());
-            // System.out.println("Active Href are name>>>"+actlink.get(i).getAttribute("href"));
+            System.out.println("Active Href are name>>>"+actlink.get(i).getAttribute("href"));
         }
         //get the active link size
         System.out.println("List of active link with Href>>>"+actlink.size());
