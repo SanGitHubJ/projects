@@ -1,0 +1,33 @@
+/
+>Inheritance  >> child class can access parent class by EXTEND TO parent class
+>Constructor will use to initialize parameters in class
+>Super Keyword will call to  constractor from another constractor
+>Overloading >> repeating same method with differnt arguments ie parametrs
+>Overriding :: child class method will override in parent class [@Override key word can call in child class to make sure overriding
+> RUn time Polymorphism ::
+    eg: A obj1 = new B();
+            obj1.show(); // run time polymorphsm
+
+            obj1 = new C();
+            obj1.show() //
+
+>Encapsulation is binding data with methods which veriable should be private
+>Wrapper class
+    eg: int i = 6;  // this int is premitive data type
+        Interger ii = new Interger(i) //this Interger is wrapper class.And when passing premitive data vale in side d wrapper called"boxing or wrapping"
+
+        int j = ii.intValue() // getting ii value out/, this is called un-boxing" mean taking value out from box.
+
+        Integer value = i //can directly assing i value to wrapper its called Auto-boxing [but run time still create object new Integer()]
+
+        int k = value //is called auto-unboxing
+
+> Abstract class CAN NOT instantiate mean can not create any Object[ie interface]
+    and No Mothod body/ main class, all veriable by default static,non static method
+
+> final veriable can not change once assing, and final method can nt extend n NO one can overwrite
+
+
+
+
+
